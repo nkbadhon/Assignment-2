@@ -1,3 +1,60 @@
-h1 {
+/* font-import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#web-name {
     text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.font-page {
+    display: flex;
+    position: absolute;
+    width: 1321px;
+    height: 646px;
+    left: 140px;
+    top: 100px;
+
+    background: #161616;
+    border-radius: 30px;
+
+}
+
+.introduction {
+    position: absolute;
+    width: 531px;
+    height: 424px;
+
+    padding-left: 106px;
+    padding-top: 111px;
+    padding-bottom: 111px;
+    margin: 0;
+}
+
+#Front-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: white;
+}
+
+.paragraph {
+    color: white;
+
+}
+
+#player {
+    position: absolute;
+    width: 581px;
+    height: 613px;
+    left: 801px;
+    top: 83px;
 }
