@@ -12,16 +12,6 @@ body {
     margin: 10px 90px;
 }
 
-/* #web-name {
-    text-align: center;
-    background-color: rgb(255, 254, 254);
-    color: rgb(8, 93, 124);
-    padding: 10px 20px;
-    border-radius: 20px;
-    margin-right: 20px;
-    font-size: 30px;
-} */
-
 .head-div {
     text-align: center;
     background-color: rgb(255, 254, 254);
@@ -36,10 +26,10 @@ body {
     display: flex;
     width: 1321px;
     height: 646px;
-    left: 140px;
-    top: 100px;
     background: #161616;
     border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
 
 }
 
@@ -66,27 +56,32 @@ body {
 
 }
 
-.live-button {
+.live {
     background-color: rgb(13, 53, 77);
     color: white;
     font-weight: 700;
     font-size: 1.2em;
     padding: 20px 30px;
     border-radius: 5px;
-    border-color: rgb(13, 53, 77);
+    cursor: pointer;
+    transition: .85s;
 }
 
-#live-button .fa-play {
+.live:hover {
+    padding: 30px 40px;
+    background-color: rgb(24, 98, 143);
+    font-size: 1.3em;
+}
+
+.fa-play {
     padding-left: 5px;
 }
 
 #player img {
     position: absolute;
-    width: 581px;
     height: 613px;
     left: 801px;
-    top: 110px;
-    margin-top: 75px;
+    margin-top: 33px;
 }
 
 
@@ -319,13 +314,9 @@ body {
         text-align: center;
     }
 
-    .live-button {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        margin-left: 97px;
-        padding: 8px 12px;
-        gap: 10px;
+    .live {
+        margin: 0 79px;
+        border: none;
     }
 
     #player img {
@@ -333,7 +324,7 @@ body {
         width: 233px;
         height: 245px;
         left: 164px;
-        top: 274px;
+        top: 162px;
     }
 
     .fixed-menu {
