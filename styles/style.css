@@ -1,5 +1,6 @@
 /* font-import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* common styles */
 body {
@@ -84,10 +85,13 @@ body {
 
 .page-2 {
     margin-top: 130px;
+
 }
 
 .menu-match {
     display: flex;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -95,6 +99,9 @@ body {
     padding: 20px 30px;
     background-color: #161616;
     border-radius: 10px;
+    height: 260px;
+    width: 260px;
+
 
 }
 
@@ -109,4 +116,42 @@ body {
 
 #selected-menu {
     background-color: rgba(193, 193, 128, 0.614);
+}
+
+.all-matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    margin-left: 20px;
+}
+
+.match {
+    border: .5px solid rgb(168, 167, 167);
+    border-radius: 10px;
+    padding: ;
+}
+
+#Tr-button {
+    height: 32px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.match-info {
+    padding: 15px;
+    max-width: 280px;
+    max-height: 300px;
+}
+
+.info-2 {
+    display: flex;
+
+}
+
+#hr-comment {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10px;
+    margin: 1px;
 }
