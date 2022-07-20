@@ -212,3 +212,36 @@ body {
     color: gray;
     background-color: gray;
 }
+
+/* Second-page style */
+
+.fixture-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    margin-left: 20px;
+}
+
+.total-flag-box {
+    border: .5px solid gray;
+    border-radius: 10px;
+    height: 242px;
+}
+
+.flag-box {
+    display: flex;
+    height: 56px;
+    width: 252px;
+    margin-top: 53px;
+    padding: 0 10px;
+}
+
+.flag-paragraph {
+    padding: 0 22px;
+}
+
+.flag-info-box {
+    text-align: center;
+
+}
