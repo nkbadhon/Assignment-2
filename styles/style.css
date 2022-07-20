@@ -75,7 +75,7 @@ body {
     max-width: 100%;
     max-height: 100%;
     left: 750px;
-    top: 188.5px;
+    top: 29%;
     padding: 0;
     margin: 0
 }
@@ -179,7 +179,7 @@ body {
 .footer-div {
     background-color: #161616;
     width: 100%;
-    padding: 50px 0px;
+    padding: 80px 0px;
 
 }
 
@@ -215,6 +215,11 @@ body {
 
 /* Second-page style */
 
+
+#totalcont {
+    padding-bottom: 130px;
+}
+
 .fixture-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -227,6 +232,7 @@ body {
     border: .5px solid gray;
     border-radius: 10px;
     height: 242px;
+    width: 312px;
 }
 
 .flag-box {
