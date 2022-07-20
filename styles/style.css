@@ -12,7 +12,17 @@ body {
     margin: 10px 90px;
 }
 
-#web-name {
+/* #web-name {
+    text-align: center;
+    background-color: rgb(255, 254, 254);
+    color: rgb(8, 93, 124);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+} */
+
+.head-div {
     text-align: center;
     background-color: rgb(255, 254, 254);
     color: rgb(8, 93, 124);
@@ -66,24 +76,19 @@ body {
     border-color: rgb(13, 53, 77);
 }
 
-#live-button. .fa-play {
+#live-button .fa-play {
     padding-left: 5px;
 }
 
-#player {
+#player img {
     position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    left: 750px;
-    top: 29%;
-    padding: 0;
-    margin: 0
+    width: 581px;
+    height: 613px;
+    left: 801px;
+    top: 110px;
+    margin-top: 75px;
 }
 
-#player img {
-    height: 180%;
-    width: 165.5%;
-}
 
 .page-2 {
     margin-top: 130px;
@@ -278,4 +283,75 @@ body {
     color: white;
     font-size: 30px;
     padding: 20px;
+}
+
+/* Media   Queries */
+
+/* Mobile */
+
+@media only screen and (max-width:688px) {
+    .head-div {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .font-page,
+    .introduction {
+        width: 344px;
+        height: 472px;
+        align-items: center;
+        font-size: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Front-heading {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .paragraph {
+        text-align: center;
+    }
+
+    .live-button {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: 97px;
+        padding: 8px 12px;
+        gap: 10px;
+    }
+
+    #player img {
+        position: absolute;
+        width: 233px;
+        height: 245px;
+        left: 164px;
+        top: 274px;
+    }
+
+    .fixed-menu {
+        background-color: white;
+        position: absolute;
+        width: 210px;
+        height: 176px;
+        left: 120px;
+        top: 600px;
+        align-items: center;
+    }
+
+    .menu-button {
+        width: 210px;
+        height: 48px;
+        left: 83px;
+        top: 40px;
+        padding: 0;
+    }
+
 }
