@@ -12,6 +12,10 @@ body {
     margin: 10px 90px;
 }
 
+.page-1 {
+    margin-left: 110px;
+}
+
 .head-div {
     text-align: center;
     background-color: rgb(255, 254, 254);
@@ -87,6 +91,7 @@ body {
 
 .page-2 {
     margin-top: 130px;
+    margin-left: 110px;
 
 }
 
@@ -280,6 +285,14 @@ body {
 
 @media only screen and (max-width:688px) {
 
+    .page-1 {
+        margin-left: 0px;
+    }
+
+    .page-2 {
+        margin-left: 0px;
+    }
+
     .font-page,
     .introduction {
         width: 344px;
@@ -410,6 +423,14 @@ body {
 /* TAblet Devices */
 
 @media only screen and (min-width:688px) and (max-width:992px) {
+
+    .page-1 {
+        margin-left: 0px;
+    }
+
+    .page-2 {
+        margin-left: 0px;
+    }
 
     .font-page {
         width: 734px;
