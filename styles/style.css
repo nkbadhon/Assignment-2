@@ -516,3 +516,10 @@ body {
     }
 
 }
+
+/* For larger device */
+@media only screen and (min-width:993px) {
+    .view-portion {
+        display: none;
+    }
+}
