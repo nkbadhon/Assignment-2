@@ -391,4 +391,22 @@ body {
         align-items: center;
         padding: 0px;
     }
+
+    /* For Second Page */
+    .fixture-box {
+        display: block;
+        flex-direction: column;
+        margin-top: 440px;
+        margin-left: -50px;
+
+    }
+
+    .total-flag-box {
+        margin: 10px 0;
+    }
+
 }
+
+/* TAblet Devices */
+
+@media only screen and (min-width:688px) and (max-width:992px) {}
